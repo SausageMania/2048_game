@@ -1,0 +1,168 @@
+@charset "EUC-KR";
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.8) 0%, rgba(45, 99, 247, 0.466) 100%);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.8) 0%,rgba(45, 99, 247, 0.466) 100%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "roboto", "Arial";
+    margin : 80px 0;
+}
+
+hr{
+    border-bottom : 2px solid #4285F4;
+    width : 500px;
+}
+
+.game-tool, .user-tool, .menu-container{
+    width : 500px;
+    margin : 0 auto;
+}
+
+.game-tool:after{
+    content:"";
+    display:block;
+    clear:both;
+    height : 10px;
+}
+
+.game-name{
+    font-weight: 700;
+    font-size: 65px;
+    color: rgb(16, 102, 240);
+    float : left;
+    display : block;
+}
+
+.score-container{
+    float : right;
+    text-align: right;
+}
+
+.score:after{
+    content: "Score";
+}
+.bestscore:after{
+    content: "Your Best";
+    width : 100%;
+}
+.rankscore:after{
+    content: "Rank Best";
+}
+
+.score:after, .bestscore:after, .rankscore:after{
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 10px;
+    text-align: center;
+    color: #d1f7fc;
+}
+
+.score , .bestscore, .rankscore{
+    position: relative;
+    display: inline-block;
+    background: #43baff;
+    font-size: 25px;
+    height: 25px;
+    line-height: 47px;
+    font-weight: bold;
+    border-radius: 3px;
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.score{
+    padding: 15px 18px;
+}
+
+.bestscore{
+    padding: 15px 33px;
+}
+
+.rankscore{
+    background : #f777c6;
+    padding: 15px 17px;
+}
+
+
+#score, #bestscore{
+    text-align: center;
+}
+
+.user-tool{
+    font-size: 18px;
+    color: black;
+    font-family : "Clear Sans","»õ±¼¸²";
+    font-weight : 500;
+}
+
+.user-tool:after{
+    content:"";
+    display:block;
+    clear:both;
+    height : 10px;
+}
+
+
+.clear{
+    clear: both;
+}
+#size-bloc{
+    margin-left: -50px;
+    padding-left: 50%;
+}
+
+#size-title{
+    float: left;
+    margin-top: 0px;
+}
+
+#size{
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+#canvas{
+    background-color: #4285F4;
+    border-radius: 6px;
+}
+
+#canvas-block{
+    margin-left: -250px;
+    padding-left: 50%;
+}
+
+
+.menu-container ul { 	
+    text-align:center;
+
+}
+.menu-container ul li{
+	color: #4285F4;
+    display:inline; 
+    text-transform:uppercase; 
+    padding:0 10px; letter-spacing:5px; 
+}
+
+span{
+    color : rgb(0, 98, 255);
+    font-weight : 700;
+}
+
+#usercomment{
+	font-weight : 900;
+}
+
+#HowToPlay{
+    width : 500px;
+    margin : 0 auto;
+}
